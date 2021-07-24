@@ -1,12 +1,23 @@
+var currentcolor = "Navajowhite";
+function changecolor(){
 
-document.getElementById("button-1").onclick = function () {
-  location.href = "./pages/about.html";
-};
-
-document.getElementById("button-2").onclick = function () {
-  alert("Hello world!");
-};
-
-document.getElementById("button-3").onclick = function () {
-  document.getElementById("content").style.color = "blue";
-};
+  if(currentcolor == "Navajowhite"){
+    document.body.style.background="darkolivegreen";
+    currentcolor = "darkolivegreen";
+  } else{
+    document.body.style.background ="Navajowhite";
+    currentcolor = "Navajowhite";
+  }
+}
+function getdate(){
+  var currentdate =  
+Date().tostring();
+}
+var today = new Date();
+var day = today.getDate();
+console.log(day);
+document.querySelector("#Day-"+ day).style.background = "olivedrab"
+var month = today.toLocaleString('default', { month: 'long' });
+document.querySelector(".month").innerHTML = month;
+var year =  today.getFullYear();
+document.querySelector(".month").innerHTML = month + " - " +year;
