@@ -1,47 +1,72 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-
-  font-size: 24px;
+h1{
+  text-align:center;
+  background-color: burlywood;
+  color: bisque;
 }
-
-#container {
-  grid-template-rows: 1fr 5fr;
-  grid-template-columns: 1fr 3fr;
-
-  height: 100%;
+h1:hover{
+  background-color:olivedrab;
+  color: black;
+}
+body{
+  background-color:beige;
+  cursor: wait;
+}
+.container{
   display: grid;
+  grid-template-columns:repeat(3, 1fr);
+ 
 }
+.sidebar{
+    background-color: burlywood;
+  font-size: 30px;
+  
+  
+}
+a{
+  display: block;
+  padding: 60px;
+    text-decoration: none;
+  color: bisque;
+  font: 
+    }
+a:hover{
+  background-color: olivedrab;
+  font-size: 45px;
+  color: black;}
 
-#header {
-  grid-column-start: 1;
-  grid-column-end: 3;
 
-  background-color: darkgray;
-
-  margin: 10px;
-  padding: 10px;
-
-  font-size: 4em;
-
+.calendar{
+  float: right;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+  background-image:url("https://preview.redd.it/2apm2s3stm661.png?width=960&crop=smart&auto=webp&s=adf736f5ddb979f0d36cd39cdb4f38791e3a7735") ;
+  Background-size: 100%, 100%;
+  height:200px;
+  width: 350px;
+}
+.calendar p {
   text-align: center;
+  border: 1px solid darkgreen;
+  margin: 0px;
+  color: bisque;
 }
-
-#content {
-  margin: 5px;
-  padding: 5px;
+.calendar .month:hover{
+  background-color: olivedrab;
+    color: black;
 }
-
-/* Sidebar styling */
-.sidebar-button {
-  width: 90%;
-  border: 1px black solid;
-  margin: 2px;
-  margin: 15px;
+.month{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  font-size: 40px;
+  color: bisque;
 }
-
-#sidebar {
-  border: 1px black dotted;
-  background-color: white;
+.month
+button{
+  float: right;
+}
+.hello{
+  margin-left: 10px;
+  margin-right: 10px;
 }
