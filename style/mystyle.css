@@ -29,7 +29,7 @@ body{
   color: bisque;
   font: 
     }
-a:hover{
+.sidebar a:hover{
   background-color: olivedrab;
   font-size: 45px;
   color: black;}
