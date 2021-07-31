@@ -22,7 +22,7 @@ body{
   
   
 }
-a{
+.sidebar a{
   display: block;
   padding: 60px;
     text-decoration: none;
