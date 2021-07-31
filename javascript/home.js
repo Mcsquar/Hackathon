@@ -12,7 +12,8 @@ function changecolor(){
 function getdate(){
   var currentdate =  
 Date().tostring();
-}
+} 
+function calendar(){
 var today = new Date();
 var day = today.getDate();
 console.log(day);
@@ -20,4 +21,4 @@ document.querySelector("#Day-"+ day).style.background = "olivedrab"
 var month = today.toLocaleString('default', { month: 'long' });
 document.querySelector(".month").innerHTML = month;
 var year =  today.getFullYear();
-document.querySelector(".month").innerHTML = month + " - " +year;
+document.querySelector(".month").innerHTML = month + " - " +year;}
