@@ -23,7 +23,7 @@ document.querySelector(".month").innerHTML = month;
 var year =  today.getFullYear();
 document.querySelector(".month").innerHTML = month + " - " +year;}
 function fadeout(){
-document.querySelector(".Welcome").addClass("slide-out-left")
+document.querySelector(".Welcome").classList.add("slide-out-left")
 }
 function fadeoutdelay(){
 setTimeout(fadeout,5000)
