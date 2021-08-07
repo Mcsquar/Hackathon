@@ -33,7 +33,7 @@ setTimeout(fadeout,5000);
  setTimeout(shake,5500);
 }
 function scale(){
-document.querySelector(".scaleout").classList.add("scale-out-center")
+document.querySelector(".Shakeyourworld").classList.add("scale-out-center")
 }
 function scaledelay(){
 setTimeout(scale,5600);
