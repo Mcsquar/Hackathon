@@ -22,3 +22,9 @@ var month = today.toLocaleString('default', { month: 'long' });
 document.querySelector(".month").innerHTML = month;
 var year =  today.getFullYear();
 document.querySelector(".month").innerHTML = month + " - " +year;}
+function fadeout(){
+document.getElementByClass("Welcome").addClass("slide-out-left")
+}
+function fadeoutdelay(){
+setTimeout(fadeout,5000)
+}
