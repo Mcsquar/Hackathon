@@ -25,6 +25,10 @@ document.querySelector(".month").innerHTML = month + " - " +year;}
 function fadeout(){
 document.querySelector(".Welcome").classList.add("slide-out-left")
 }
+function shake(){
+document.querySelector(".Shakeyourworld").classList.add("puff-in-center")
+}
 function fadeoutdelay(){
-setTimeout(fadeout,5000)
+setTimeout(fadeout,5000);
+ setTimeout(shake,5500);
 }
