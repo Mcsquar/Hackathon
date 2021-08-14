@@ -34,7 +34,7 @@ document.querySelector(".Shakeyourworld").classList.add("scale-out-center")
 function fadeoutdelay(){
 setTimeout(fadeout,5000);
  setTimeout(shake,5500);
-  setTimeout(scale,6500);
+  setTimeout(scale,7000);
 }
 
 
